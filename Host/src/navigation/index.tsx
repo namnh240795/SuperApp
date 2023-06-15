@@ -36,9 +36,9 @@ function Root() {
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} />
         {/* <Stack.Screen name="Details" component={DetailsScreen} /> */}
-        <Stack.Group screenOptions={{ presentation: 'modal' }}>
-          <Stack.Screen name="Details" component={DetailsScreen} />
-        </Stack.Group>
+        {/* <Stack.Group screenOptions={{ presentation: 'modal' }}> */}
+        <Stack.Screen name="Details" component={DetailsScreen} />
+        {/* </Stack.Group> */}
       </Stack.Navigator>
     </NavigationContainer>
   );

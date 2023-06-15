@@ -8,7 +8,6 @@ import { name as appName } from './app.json';
 import {
   ScriptManager,
   Script,
-  ChunkManager,
   Federated,
 } from '@callstack/repack/client';
 import { MMKV } from 'react-native-mmkv';
