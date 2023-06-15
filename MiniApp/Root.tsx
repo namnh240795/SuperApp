@@ -16,14 +16,13 @@ function HomeScreenX({ navigation }: any) {
 function HomeScreenY({ navigation }: any) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Home Screen Y</Text>
+      <Text>Home Screen A</Text>
       <Button title="Go to X" onPress={() => navigation.navigate('HomeX')} />
     </View>
   );
 }
 
 function HomeScreen(props: any) {
-  console.log('navigation', props);
   const { Stack } = props;
   return (
     <Stack.Navigator

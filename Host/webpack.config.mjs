@@ -245,6 +245,13 @@ export default env => {
             singleton: true,
             eager: true,
           },
+          'react-native-reanimated': {
+            singleton: true,
+          },
+          'react-native-mmkv': {
+            singleton: true,
+            eager: true
+          }
         },
       }),
     ],
